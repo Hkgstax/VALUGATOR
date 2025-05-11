@@ -1,0 +1,32 @@
+VALUGATOR PUBLIC INTERACTION LICENSE (Limited Use)
+
+Copyright (c) 2025 Vigil-313. All Rights Reserved
+
+This license grants a limited, non-exclusive, non-transferable right to view and explore the VALUGATOR project materials for personal, educational, or non-commercial purposes only.
+
+1. PERMITTED USES
+You may:
+  a. View and read the project repository and associated documentation
+  b. Clone the repository for private inspection only — no public hosting or reuse
+  c. Share screenshots or excerpts for non-commercial educational or journalistic purposes
+
+2. RESTRICTIONS
+You may NOT:
+  a. Fork this repository on GitHub or any other platform
+  b. Copy, modify, translate, or create derivative works from any part of the VALUGATOR project
+  c. Use the software or system architecture in any project, commercial or otherwise
+  d. Use any VALUGATOR concepts, prompts, characters, visuals, structure, or outputs to train or instruct machine learning models or AI systems
+  e. Distribute, host, mirror, or replicate the system in any form
+  f. Use the system or any part of it to build similar or competitive products, services, or platforms
+
+3. NO LICENSE TO USE
+This public license does not grant any license to use the VALUGATOR software in production, commercial distribution, or system integration. It is purely for limited inspection and non-commercial exposure.
+
+4. TERMINATION
+Any violation of these terms immediately revokes your access and rights under this license.
+
+5. DISCLAIMERS
+The software and content are provided "AS IS" with no warranty or guarantees of functionality, fitness, or compatibility.
+
+6. COPYRIGHT
+All content, structure, and system design remain the sole intellectual property of Vigil-313. All rights reserved.

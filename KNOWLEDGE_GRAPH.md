@@ -146,6 +146,37 @@
   - Related: [CON-VAL-009]
   - Documents: [DOC-ROOT-README-1]
 
+## Legal & IP Concepts
+- [CON-LGL-001]: Dual License Structure
+  - Definition: Two-tier licensing system with proprietary restrictions and limited view-only rights
+  - Related: [CON-LGL-002], [CON-LGL-003], [CON-LGL-004]
+  - Documents: [DOC-ROOT-README-1], [DOC-ROOT-LIC-1], [DOC-ROOT-LICPUB-1], [DOC-ROOT-NOTICE-1]
+
+- [CON-LGL-002]: Proprietary License
+  - Definition: Full restrictive license prohibiting all use, reuse, modification, or derivation of VALUGATOR
+  - Related: [CON-LGL-001], [CON-LGL-004]
+  - Documents: [DOC-ROOT-LIC-1]
+
+- [CON-LGL-003]: Public View-Only License
+  - Definition: Limited license granting non-commercial, educational inspection rights to the project
+  - Related: [CON-LGL-001], [CON-LGL-004]
+  - Documents: [DOC-ROOT-LICPUB-1]
+
+- [CON-LGL-004]: Intellectual Property Protection
+  - Definition: Legal safeguards for VALUGATOR's unique concepts, character system, and interaction mechanics
+  - Related: [CON-LGL-001], [CON-LGL-002], [CON-LGL-003], [CON-LGL-005]
+  - Documents: [DOC-ROOT-NOTICE-1]
+
+- [CON-LGL-005]: Legal Gator Panel
+  - Definition: Specialized group of gator personas focused on legal risk assessment and protection strategies
+  - Related: [CON-VAL-002], [CON-LGL-004], [CON-LGL-006]
+  - Documents: [DOC-TECH-LGAL-1]
+
+- [CON-LGL-006]: Legal Risk Assessment
+  - Definition: Process of identifying and evaluating potential legal exposures in startup ideas
+  - Related: [CON-VAL-004], [CON-LGL-005]
+  - Documents: [DOC-TECH-LGAL-1]
+
 ## Relationships
 ### System Relationships
 1. [CON-SYS-001] → implements → [CON-SYS-002]
@@ -183,19 +214,35 @@
 4. [CON-VAL-004] → distinguished by → [CON-ADV-004]
 5. [CON-VAL-009] → provides → [CON-ADV-005]
 
+### Legal & IP Relationships
+1. [CON-VAL-001] → protected by → [CON-LGL-001]
+2. [CON-LGL-001] → consists of → [CON-LGL-002]
+3. [CON-LGL-001] → consists of → [CON-LGL-003]
+4. [CON-LGL-001] → enforces → [CON-LGL-004]
+5. [CON-VAL-002] → extended by → [CON-LGL-005]
+6. [CON-LGL-005] → performs → [CON-LGL-006]
+7. [CON-LGL-006] → enhances → [CON-VAL-004]
+
 ## Visual Representation
 ```
 VALUGATOR System
 ├── Core Features
 │   ├── Immersive AI Experience
 │   │   ├── features → Gator Personas
-│   │   │   └── engages in → Multi-Agent Dialogue
+│   │   │   ├── engages in → Multi-Agent Dialogue
+│   │   │   └── extended by → Legal Gator Panel
+│   │   │       └── performs → Legal Risk Assessment
 │   │   ├── uses → Speech Bubble Interface
 │   │   ├── incorporates → Session Memory
 │   │   ├── enables → Interactive Roleplay
 │   │   └── provides → Replay and Export
 │   └── Structured Evaluation
 │       └── enhanced by → Retrieval-Augmented Critique
+└── Legal Protection
+    └── Dual License Structure
+        ├── consists of → Proprietary License
+        ├── consists of → Public View-Only License
+        └── enforces → Intellectual Property Protection
 │
 ├── Target Audience
 │   ├── Aspiring Founders

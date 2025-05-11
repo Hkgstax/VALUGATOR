@@ -1,0 +1,50 @@
+VALUGATOR PROPRIETARY LICENSE
+
+Copyright (c) 2025 Vigil-313. All Rights Reserved
+
+VALUGATOR SOFTWARE LICENSE AGREEMENT
+
+This VALUGATOR Software License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity) and Vigil-313, the copyright holder of VALUGATOR.
+
+1. OWNERSHIP AND PROPRIETARY RIGHTS
+All right, title, and interest in and to the VALUGATOR software, including all intellectual property rights, are and shall remain exclusively with Vigil-313. The software is protected by copyright, trade dress, moral rights, and other intellectual property laws and treaties.
+
+2. GRANT OF LICENSE
+No license, right, or interest in the software is granted under this Agreement. All rights are explicitly reserved.
+
+3. RESTRICTIONS
+You may NOT:
+  a. Copy, modify, adapt, translate, or create derivative works based upon the software or its structure
+  b. Reverse engineer, decompile, disassemble, or attempt to discover the source code
+  c. Rent, lease, lend, sell, redistribute, sublicense, or transfer the software or its concepts
+  d. Use the software for any commercial or non-commercial purpose
+  e. Remove, alter, or obscure any proprietary notices or trade dress on the software
+  f. Use the software to create any similar or competitive product
+  g. Use any part of the software, outputs, prompts, character designs, system architecture, or interaction mechanics to train or guide machine learning models or AI systems
+  h. Replicate the concept, branding, visual design, or critique mechanics of the VALUGATOR platform in any form, including derivative or reworded interpretations
+
+4. UNAUTHORIZED USE
+Any use, reproduction, or distribution of the software or its concepts not expressly authorized under this Agreement may result in civil and criminal penalties and will be prosecuted to the maximum extent permissible under law.
+
+5. TERMINATION
+This Agreement is effective until terminated. Your rights under this Agreement will terminate automatically without notice if you fail to comply with any of its terms or conditions.
+
+6. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+7. LIMITATION OF LIABILITY
+IN NO EVENT SHALL VIGIL-313 BE LIABLE FOR ANY DAMAGES ARISING FROM THE USE OR INABILITY TO USE THE SOFTWARE, INCLUDING ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES.
+
+8. INDEMNIFICATION
+You agree to indemnify, defend, and hold harmless Vigil-313 from any claims, damages, or liabilities arising from your violation of this Agreement.
+
+9. MORAL RIGHTS
+The author asserts moral rights over the characters, dialogue structures, critique chamber metaphor, visual style, and narrative tone. Misrepresentation or imitation of these elements may constitute infringement even absent code reuse.
+
+10. GOVERNING LAW
+This Agreement shall be governed by the laws of the jurisdiction in which Vigil-313 operates.
+
+11. ENTIRE AGREEMENT
+This Agreement constitutes the complete agreement between the parties regarding the software.
+
+By accessing or using the VALUGATOR software in any form, you agree to be bound by these terms. If you do not agree, you are not authorized to interact with this software or its derivatives.
