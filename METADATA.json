@@ -1,0 +1,137 @@
+{
+  "project": "VALUGATOR",
+  "version": "0.3.0",
+  "last_updated": "2025-05-12T11:25:00Z",
+  "last_session_id": "SESSION-002",
+  "document_versions": {
+    "DOC-ROOT-README-1": {
+      "version": "0.2.0",
+      "last_updated": "2025-05-11T03:59:54Z",
+      "change_type": "Modification"
+    },
+    "DOC-ROOT-STATE-1": {
+      "version": "0.3.0",
+      "last_updated": "2025-05-12T11:15:00Z",
+      "change_type": "Modification"
+    },
+    "DOC-ROOT-KNOW-1": {
+      "version": "0.2.0",
+      "last_updated": "2025-05-11T03:59:54Z",
+      "change_type": "Modification"
+    },
+    "DOC-ROOT-META-1": {
+      "version": "0.3.0",
+      "last_updated": "2025-05-12T11:25:00Z",
+      "change_type": "Modification"
+    },
+    "DOC-EXEC-README-1": {
+      "version": "0.2.0",
+      "last_updated": "2025-05-11T04:05:00Z",
+      "change_type": "Modification"
+    },
+    "DOC-EXEC-SUM-1": {
+      "version": "0.1.0",
+      "last_updated": "2025-05-11T04:05:00Z",
+      "change_type": "Addition"
+    },
+    "DOC-TECH-README-1": {
+      "version": "0.3.0",
+      "last_updated": "2025-05-12T11:20:00Z",
+      "change_type": "Modification"
+    },
+    "DOC-TECH-PERS-1": {
+      "version": "0.1.0",
+      "last_updated": "2025-05-12T10:20:00Z",
+      "change_type": "Addition"
+    },
+    "DOC-TECH-EVAL-1": {
+      "version": "0.1.0",
+      "last_updated": "2025-05-12T10:40:00Z",
+      "change_type": "Addition"
+    },
+    "DOC-MGMT-README-1": {
+      "version": "0.2.0",
+      "last_updated": "2025-05-11T04:12:00Z",
+      "change_type": "Modification"
+    },
+    "DOC-DEV-README-1": {
+      "version": "0.2.0",
+      "last_updated": "2025-05-11T04:15:00Z",
+      "change_type": "Modification"
+    }
+  },
+  "audience_levels": [
+    {
+      "id": "LVL-EXEC-1",
+      "name": "Executive",
+      "technical_depth": "1"
+    },
+    {
+      "id": "LVL-MGMT-1",
+      "name": "Management",
+      "technical_depth": "2"
+    },
+    {
+      "id": "LVL-TECH-1",
+      "name": "Technical",
+      "technical_depth": "4"
+    },
+    {
+      "id": "LVL-DEV-1",
+      "name": "Development",
+      "technical_depth": "5"
+    }
+  ],
+  "cross_references": [
+    {
+      "source": "DOC-ROOT-README-1:Audience",
+      "target": "DOC-ROOT-KNOW-1:CON-SYS-003",
+      "relationship": "Defines"
+    },
+    {
+      "source": "DOC-ROOT-STATE-1:Knowledge State",
+      "target": "DOC-ROOT-KNOW-1",
+      "relationship": "Summarizes"
+    },
+    {
+      "source": "DOC-ROOT-README-1:Core Features",
+      "target": "DOC-ROOT-KNOW-1:VALUGATOR Concepts",
+      "relationship": "Details"
+    },
+    {
+      "source": "DOC-ROOT-README-1:Target Audience",
+      "target": "DOC-ROOT-KNOW-1:Target Audience Segments",
+      "relationship": "Details"
+    },
+    {
+      "source": "DOC-EXEC-SUM-1",
+      "target": "DOC-ROOT-README-1",
+      "relationship": "Summarizes"
+    },
+    {
+      "source": "DOC-ROOT-STATE-1:Next Session Focus Areas",
+      "target": "DOC-ROOT-STATE-1:Open Questions",
+      "relationship": "Addresses"
+    },
+    {
+      "source": "DOC-TECH-PERS-1",
+      "target": "DOC-ROOT-KNOW-1:VALUGATOR Concepts",
+      "relationship": "Extends"
+    },
+    {
+      "source": "DOC-TECH-EVAL-1",
+      "target": "DOC-ROOT-KNOW-1:VALUGATOR Concepts",
+      "relationship": "Implements"
+    },
+    {
+      "source": "DOC-TECH-PERS-1:Character Interaction Patterns",
+      "target": "DOC-TECH-EVAL-1:Gator-Specific Evaluation Patterns",
+      "relationship": "Influences"
+    },
+    {
+      "source": "DOC-ROOT-STATE-1:Action Items",
+      "target": "DOC-TECH-README-1:Planned Documents",
+      "relationship": "Directs"
+    }
+  ]
+}
