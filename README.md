@@ -3,6 +3,8 @@
 ## Purpose
 VALUGATOR is an immersive, session-based AI experience where users pitch their startup ideas to a panel of animated AI characters known as "gators." These gators represent distinct expert personas (like a skeptical investor or a hype-driven founder) and engage in a dynamic, Shark Tank–style critique session — interacting not just with the user, but also with each other. Users receive emotionally engaging, multi-perspective feedback in a visual interface with avatars, speech bubbles, and personality-driven dialogue.
 
+![Valugator: Classic Chamber Scene](./valugator_picture_01.png)
+
 ## Core Features
 - 🐊 **Gator Personas**: Panel of 4-6 AI characters each with distinct roles and critique styles
 - 💬 **Speech Bubble Interface**: Dialog appears as speech bubbles above avatars in a 2.5D scene
