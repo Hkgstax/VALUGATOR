@@ -1,8 +1,8 @@
 {
   "project": "VALUGATOR",
-  "version": "0.3.0",
-  "last_updated": "2025-05-12T11:25:00Z",
-  "last_session_id": "SESSION-002",
+  "version": "0.5.0",
+  "last_updated": "2025-05-11T17:30:00Z",
+  "last_session_id": "SESSION-005",
   "document_versions": {
     "DOC-ROOT-README-1": {
       "version": "0.2.0",
@@ -10,18 +10,18 @@
       "change_type": "Modification"
     },
     "DOC-ROOT-STATE-1": {
-      "version": "0.3.0",
-      "last_updated": "2025-05-12T11:15:00Z",
+      "version": "0.5.0",
+      "last_updated": "2025-05-11T17:30:00Z",
       "change_type": "Modification"
     },
     "DOC-ROOT-KNOW-1": {
       "version": "0.2.0",
-      "last_updated": "2025-05-11T03:59:54Z",
+      "last_updated": "2025-05-11T17:30:00Z",
       "change_type": "Modification"
     },
     "DOC-ROOT-META-1": {
-      "version": "0.3.0",
-      "last_updated": "2025-05-12T11:25:00Z",
+      "version": "0.5.0",
+      "last_updated": "2025-05-11T17:30:00Z",
       "change_type": "Modification"
     },
     "DOC-EXEC-README-1": {
@@ -35,18 +35,58 @@
       "change_type": "Addition"
     },
     "DOC-TECH-README-1": {
-      "version": "0.3.0",
-      "last_updated": "2025-05-12T11:20:00Z",
+      "version": "0.5.0",
+      "last_updated": "2025-05-11T17:30:00Z",
       "change_type": "Modification"
     },
     "DOC-TECH-PERS-1": {
       "version": "0.1.0",
-      "last_updated": "2025-05-12T10:20:00Z",
+      "last_updated": "2025-05-11T10:20:00Z",
       "change_type": "Addition"
     },
     "DOC-TECH-EVAL-1": {
       "version": "0.1.0",
-      "last_updated": "2025-05-12T10:40:00Z",
+      "last_updated": "2025-05-11T10:40:00Z",
+      "change_type": "Addition"
+    },
+    "DOC-TECH-LGAL-1": {
+      "version": "0.1.0",
+      "last_updated": "2025-05-11T15:30:00Z",
+      "change_type": "Addition"
+    },
+    "DOC-TECH-PATH-1": {
+      "version": "0.1.0",
+      "last_updated": "2025-05-11T15:45:00Z",
+      "change_type": "Addition"
+    },
+    "DOC-TECH-PATHS-1": {
+      "version": "0.1.0",
+      "last_updated": "2025-05-11T16:00:00Z",
+      "change_type": "Addition"
+    },
+    "DOC-TECH-UJ-1": {
+      "version": "0.1.0",
+      "last_updated": "2025-05-11T16:30:00Z",
+      "change_type": "Addition"
+    },
+    "DOC-TECH-DIA-1": {
+      "version": "0.1.0",
+      "last_updated": "2025-05-11T16:30:00Z",
+      "change_type": "Addition"
+    },
+    "DOC-TECH-EVAL-2": {
+      "version": "0.1.0",
+      "last_updated": "2025-05-11T17:30:00Z",
+      "change_type": "Addition"
+    },
+    "DOC-TECH-PATH-2": {
+      "version": "0.1.0",
+      "last_updated": "2025-05-11T17:30:00Z",
+      "change_type": "Addition"
+    },
+    "DOC-TECH-LGAL-2": {
+      "version": "0.1.0",
+      "last_updated": "2025-05-11T17:30:00Z",
       "change_type": "Addition"
     },
     "DOC-MGMT-README-1": {
@@ -132,6 +172,66 @@
       "source": "DOC-ROOT-STATE-1:Action Items",
       "target": "DOC-TECH-README-1:Planned Documents",
       "relationship": "Directs"
+    },
+    {
+      "source": "DOC-TECH-PATH-1",
+      "target": "DOC-ROOT-KNOW-1:Pathfinder Council Concepts",
+      "relationship": "Implements"
+    },
+    {
+      "source": "DOC-TECH-LGAL-1",
+      "target": "DOC-ROOT-KNOW-1:Legal Gator Concepts",
+      "relationship": "Implements"
+    },
+    {
+      "source": "DOC-TECH-PATHS-1",
+      "target": "DOC-TECH-PATH-1",
+      "relationship": "Extends"
+    },
+    {
+      "source": "DOC-TECH-UJ-1",
+      "target": "DOC-ROOT-KNOW-1:System Concepts",
+      "relationship": "Integrates"
+    },
+    {
+      "source": "DOC-TECH-DIA-1",
+      "target": "DOC-TECH-UJ-1",
+      "relationship": "Supports"
+    },
+    {
+      "source": "DOC-TECH-UJ-1:Panel Transition Mechanics",
+      "target": "DOC-TECH-DIA-1:Handoff Dialogues",
+      "relationship": "Implements"
+    },
+    {
+      "source": "DOC-TECH-PATH-2",
+      "target": "DOC-TECH-PATH-1",
+      "relationship": "Extends"
+    },
+    {
+      "source": "DOC-TECH-EVAL-2",
+      "target": "DOC-TECH-EVAL-1",
+      "relationship": "Supersedes"
+    },
+    {
+      "source": "DOC-TECH-LGAL-2",
+      "target": "DOC-TECH-LGAL-1",
+      "relationship": "Extends"
+    },
+    {
+      "source": "DOC-TECH-PATH-2",
+      "target": "DOC-ROOT-KNOW-1:CON-PATH-005",
+      "relationship": "Defines"
+    },
+    {
+      "source": "DOC-TECH-EVAL-2",
+      "target": "DOC-ROOT-KNOW-1:CON-EVAL-005",
+      "relationship": "Defines"
+    },
+    {
+      "source": "DOC-TECH-LGAL-2",
+      "target": "DOC-ROOT-KNOW-1:CON-LGL-007",
+      "relationship": "Defines"
     }
   ]
 }
